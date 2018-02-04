@@ -9,4 +9,17 @@ body {
 
 #header {
   background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+#mission {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 700px;
+}
+#text {
+  background-color: black;
+  text-align: center;
+}
+.logo{
+  height: 50px;
 }
