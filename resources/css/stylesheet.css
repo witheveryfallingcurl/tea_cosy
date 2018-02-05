@@ -4,22 +4,37 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
-
-#header {
+h2, h4 {
   background-color: black;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid seashell;
+  height: 69px;
+}
+
+nav {
+  margin: auto 0;
+}
+
+nav a {
+  padding: 0px 10px;
 }
 
 #mission {
   background-image: url("../../resources/images/img-mission-background.jpg");
   height: 700px;
 }
-#text {
-  background-color: black;
-  text-align: center;
-}
-.logo{
+
+
+
+.logo {
   height: 50px;
 }
